@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-
+gem 'rails-assets-bootstrap', '3.3.6', source: 'https://rails-assets.org'
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
+gem 'bundler', '>= 1.8.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # i18n for kaminari
